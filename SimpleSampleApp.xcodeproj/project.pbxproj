@@ -21,6 +21,7 @@
 		663C037C1D230DF800314C4F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C03761D230DF800314C4F /* User.swift */; };
 		663C037D1D230DF800314C4F /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C03771D230DF800314C4F /* Address+CoreDataProperties.swift */; };
 		663C037E1D230DF800314C4F /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C03781D230DF800314C4F /* Address.swift */; };
+		663C03811D230E8400314C4F /* UserMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C03801D230E8400314C4F /* UserMappable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		663C03761D230DF800314C4F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
 		663C03771D230DF800314C4F /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Address+CoreDataProperties.swift"; path = "Models/Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		663C03781D230DF800314C4F /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Models/Address.swift; sourceTree = "<group>"; };
+		663C03801D230E8400314C4F /* UserMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserMappable.swift; path = Models/UserMappable.swift; sourceTree = "<group>"; };
 		6FB9AB0E95F5840E982B6D90 /* Pods-SimpleSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleSampleApp/Pods-SimpleSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 				663C03761D230DF800314C4F /* User.swift */,
 				663C03771D230DF800314C4F /* Address+CoreDataProperties.swift */,
 				663C03781D230DF800314C4F /* Address.swift */,
+				663C03801D230E8400314C4F /* UserMappable.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				663C03581D22DE6B00314C4F /* SimpleSampleApp.xcdatamodeld in Sources */,
 				663C037B1D230DF800314C4F /* User+CoreDataProperties.swift in Sources */,
 				663C03791D230DF800314C4F /* Company+CoreDataProperties.swift in Sources */,
+				663C03811D230E8400314C4F /* UserMappable.swift in Sources */,
 				663C037A1D230DF800314C4F /* Company.swift in Sources */,
 				663C03501D22DE6B00314C4F /* AppDelegate.swift in Sources */,
 				663C037C1D230DF800314C4F /* User.swift in Sources */,
