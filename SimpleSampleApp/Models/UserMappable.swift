@@ -11,7 +11,8 @@ import ObjectMapper
 
 class UserMappable: Mappable {
 
-    var id: NSNumber!
+    var id: Int!
+    var name: String?
     var username: String?
     var email: String?
     var phone: String?
@@ -32,6 +33,7 @@ class UserMappable: Mappable {
     
     func mapping(map: Map) {
         id <- map["id"]
+        name <- map["name"]
         username <- map["username"]
         email <- map["email"]
         phone <- map["phone"]
