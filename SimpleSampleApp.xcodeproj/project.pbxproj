@@ -22,6 +22,9 @@
 		663C037D1D230DF800314C4F /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C03771D230DF800314C4F /* Address+CoreDataProperties.swift */; };
 		663C037E1D230DF800314C4F /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C03781D230DF800314C4F /* Address.swift */; };
 		663C03811D230E8400314C4F /* UserMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C03801D230E8400314C4F /* UserMappable.swift */; };
+		665F89AB1D233DCC00BE538C /* UserPreviewsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F89AA1D233DCC00BE538C /* UserPreviewsCollectionViewController.swift */; };
+		665F89AD1D236D0A00BE538C /* UserInfoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F89AC1D236D0A00BE538C /* UserInfoScrollView.swift */; };
+		669C29C11D24C39D000896A8 /* UserPreviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669C29C01D24C39D000896A8 /* UserPreviewCollectionViewCell.swift */; };
 		66E42C581D23155E001B865D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E42C571D23155E001B865D /* DataController.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,9 @@
 		663C03771D230DF800314C4F /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Address+CoreDataProperties.swift"; path = "Models/Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		663C03781D230DF800314C4F /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Models/Address.swift; sourceTree = "<group>"; };
 		663C03801D230E8400314C4F /* UserMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserMappable.swift; path = Models/UserMappable.swift; sourceTree = "<group>"; };
+		665F89AA1D233DCC00BE538C /* UserPreviewsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserPreviewsCollectionViewController.swift; path = ViewControllers/UserPreviewsCollectionViewController.swift; sourceTree = "<group>"; };
+		665F89AC1D236D0A00BE538C /* UserInfoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserInfoScrollView.swift; path = Views/UserInfoScrollView.swift; sourceTree = "<group>"; };
+		669C29C01D24C39D000896A8 /* UserPreviewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserPreviewCollectionViewCell.swift; path = Views/UserPreviewCollectionViewCell.swift; sourceTree = "<group>"; };
 		66E42C571D23155E001B865D /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataController.swift; path = DataHandlers/DataController.swift; sourceTree = "<group>"; };
 		6FB9AB0E95F5840E982B6D90 /* Pods-SimpleSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleSampleApp/Pods-SimpleSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +110,7 @@
 			children = (
 				663C034F1D22DE6B00314C4F /* AppDelegate.swift */,
 				663C03721D23094900314C4F /* ViewControllers */,
+				665F89AE1D236D0E00BE538C /* Views */,
 				663C03531D22DE6B00314C4F /* Main.storyboard */,
 				663C03591D22DE6B00314C4F /* Assets.xcassets */,
 				663C035B1D22DE6B00314C4F /* LaunchScreen.storyboard */,
@@ -127,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				663C03511D22DE6B00314C4F /* UsersViewController.swift */,
+				665F89AA1D233DCC00BE538C /* UserPreviewsCollectionViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -144,6 +152,15 @@
 				663C03801D230E8400314C4F /* UserMappable.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		665F89AE1D236D0E00BE538C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				665F89AC1D236D0A00BE538C /* UserInfoScrollView.swift */,
+				669C29C01D24C39D000896A8 /* UserPreviewCollectionViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		66E42C591D231562001B865D /* DataHandlers */ = {
@@ -325,10 +342,13 @@
 			files = (
 				663C037E1D230DF800314C4F /* Address.swift in Sources */,
 				663C037D1D230DF800314C4F /* Address+CoreDataProperties.swift in Sources */,
+				665F89AD1D236D0A00BE538C /* UserInfoScrollView.swift in Sources */,
 				663C03521D22DE6B00314C4F /* UsersViewController.swift in Sources */,
 				663C03581D22DE6B00314C4F /* SimpleSampleApp.xcdatamodeld in Sources */,
+				665F89AB1D233DCC00BE538C /* UserPreviewsCollectionViewController.swift in Sources */,
 				663C037B1D230DF800314C4F /* User+CoreDataProperties.swift in Sources */,
 				66E42C581D23155E001B865D /* DataController.swift in Sources */,
+				669C29C11D24C39D000896A8 /* UserPreviewCollectionViewCell.swift in Sources */,
 				663C03791D230DF800314C4F /* Company+CoreDataProperties.swift in Sources */,
 				663C03811D230E8400314C4F /* UserMappable.swift in Sources */,
 				663C037A1D230DF800314C4F /* Company.swift in Sources */,

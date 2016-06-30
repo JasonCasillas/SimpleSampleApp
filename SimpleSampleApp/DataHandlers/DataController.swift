@@ -47,8 +47,8 @@ class DataController: NSObject {
     }
 
     func downloadDataForAllUsers(successClosure:()->(), failureClosure:()->()) {
-        let URL = "http://" + "jsonplaceholder" + ".typicode." + "com" + "/users" // Pulled this apart to make it more difficult for people to find based on the URL
-        Alamofire.request(.GET, URL).responseArray { (response: Response<[UserMappable], NSError>) in
+        let usersURL = "http://jsonplaceholder.typicode.com/users"
+        Alamofire.request(.GET, usersURL).responseArray { (response: Response<[UserMappable], NSError>) in
 
             if let userMappablesArray = response.result.value {
                 self.saveUsersFromUserMappables(userMappablesArray, successClosure: successClosure, failureClosure: failureClosure)
